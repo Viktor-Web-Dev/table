@@ -1,0 +1,51 @@
+.table {
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.table thead th {
+    font-weight: bold;
+    text-align: left;
+    border: none;
+    padding: 10px 15px;
+    background: #EDEDED;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}
+
+.table tr th:first-child, .table tr td {
+    border-left: 1px solid #ddd;
+}
+
+.table tbody td {
+    text-align: left;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.table tbody tr:nth-child(even) {
+    background: #F8F8F8;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.table tbody tr:last-child td {
+    border-bottom: 1px solid #ddd;
+}
+
+.button {
+    outline: none;
+    background-color: inherit;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.buttonActive {
+    outline: none;
+    background-color: inherit;
+    border-radius: 4px;
+    border: 1px solid #dca4a4;
+}
